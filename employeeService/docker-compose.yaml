@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  app:
+    container_name: app
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    
+  db:
+    restart: always
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=employee
+      - MONGO_HOST=localhost
+    volumes:
+      - ./mongo-data:/data/db
+    container_name: mongo
+    command: 
+      mongod

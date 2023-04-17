@@ -1,0 +1,6 @@
+port: "8000"
+
+db:
+    database: "employees"
+    host: "mongo"
+    port: "27017"
