@@ -24,18 +24,18 @@ docker-compose up
 
 **GET**:
 Поиск сотрудника по айди компании
-<img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" width="600" height="600">
+<img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" >
 
 
 Поиск сотрудника по названию отдела
-<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album" width="600" height="600">
+<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album" >
 
 
 **PUT**:
 Изменение данных о сотруднике
-<img src="https://sun9-50.userapi.com/impg/kw5GlpN4AevdQQtsA_QdXhn_2vQ52eRXGJ0pNQ/A46J4H9sXLY.jpg?size=977x629&quality=96&sign=642d498971dd91e80921a52281a7e8dc&type=album" width="600" height="600">
+<img src="https://sun9-50.userapi.com/impg/kw5GlpN4AevdQQtsA_QdXhn_2vQ52eRXGJ0pNQ/A46J4H9sXLY.jpg?size=977x629&quality=96&sign=642d498971dd91e80921a52281a7e8dc&type=album">
 
 
 **DELETE**:
 Удаление сотрудника
-<img src="https://sun9-56.userapi.com/impg/Z-qweO4Qh-5gRm3a3u8YZa3B0IcrozAv2t2xBg/9AO2v8dlcqQ.jpg?size=868x448&quality=96&sign=0e3aad8a8b765d062907eef5c5a83d1e&type=album" width="600" height="600">
+<img src="https://sun9-56.userapi.com/impg/Z-qweO4Qh-5gRm3a3u8YZa3B0IcrozAv2t2xBg/9AO2v8dlcqQ.jpg?size=868x448&quality=96&sign=0e3aad8a8b765d062907eef5c5a83d1e&type=album">
