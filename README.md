@@ -24,6 +24,10 @@ docker-compose up
 
 
 
+
+
+
+
 **GET**:
 Поиск сотрудника по айди компании
 <img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" height="500">
