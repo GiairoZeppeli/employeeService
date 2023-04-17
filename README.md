@@ -19,15 +19,8 @@ docker-compose up
 
 **POST**:
 Добавление сотрудника
-<img src="https://sun2.tele2-nn.userapi.com/impg/fzGQR0dEngwmVC68HxS21kyPmyy885GrbIeeTQ/A1qb_fHEtj8.jpg?size=961x726&quality=96&sign=e3a2ff72b0ec033e99fe491523e84f2b&type=album">
+<img src="https://sun2.tele2-nn.userapi.com/impg/fzGQR0dEngwmVC68HxS21kyPmyy885GrbIeeTQ/A1qb_fHEtj8.jpg?size=961x726&quality=96&sign=e3a2ff72b0ec033e99fe491523e84f2b&type=album" height="500">
 
-
-
-
-
-<p>
-
-</p>
 
 
 **GET**:
