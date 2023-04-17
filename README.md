@@ -22,13 +22,15 @@ docker-compose up
 <img src="https://sun2.tele2-nn.userapi.com/impg/fzGQR0dEngwmVC68HxS21kyPmyy885GrbIeeTQ/A1qb_fHEtj8.jpg?size=961x726&quality=96&sign=e3a2ff72b0ec033e99fe491523e84f2b&type=album">
 
 
+
+
 **GET**:
 Поиск сотрудника по айди компании
 <img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" height="500">
 
 
 Поиск сотрудника по названию отдела
-<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album"height="500" >
+<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album" height="500" >
 
 
 **PUT**:
