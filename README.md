@@ -11,3 +11,11 @@ docker-compose build
 ```
 docker-compose up 
 ```
+
+Чтобы подключиться к бд используется стандартный порт 27017:
+![Коннект к бд](https://sun9-63.userapi.com/impg/HKCVR5dKT0j5dMo66Ephr-Y2kKDlr-ZKX4lwUw/4u5SBY53KSI.jpg?size=733x35&quality=96&sign=52fb37c4128287f623bb3a4a3ced998a&type=album, "Коннект к бд")
+
+В сервисе реализованно 5 запросов:
+
+**POST**:
+
