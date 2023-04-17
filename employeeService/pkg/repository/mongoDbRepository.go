@@ -49,13 +49,9 @@ func (r *MongoDBRepository) DeleteEmployee(employeeID string) error {
 		return err
 	}
 
-	result, err := r.collection.DeleteOne(context.Background(), filter)
+	_, err = r.collection.DeleteOne(context.Background(), filter)
 	if err != nil {
 		return fmt.Errorf("failed to delete employee: %s", err.Error())
-	}
-
-	if result.DeletedCount == 0 {
-		return fmt.Errorf("no employee found with the given ID")
 	}
 
 	return nil
@@ -63,6 +59,9 @@ func (r *MongoDBRepository) DeleteEmployee(employeeID string) error {
 
 func (r *MongoDBRepository) GetEmployeesByCompany(companyID int) ([]*employeeservice.Employee, error) {
 	filter := bson.M{"companyId": companyID}
+	if err := employeeExistChecker(r, filter); err != nil {
+		return nil, err
+	}
 	cur, err := r.collection.Find(context.Background(), filter)
 	if err != nil {
 		return nil, err
@@ -81,6 +80,9 @@ func (r *MongoDBRepository) GetEmployeesByCompany(companyID int) ([]*employeeser
 
 func (r *MongoDBRepository) GetEmployeesByDepartment(departmentName string) ([]*employeeservice.Employee, error) {
 	filter := bson.M{"department.name": departmentName}
+	if err := employeeExistChecker(r, filter); err != nil {
+		return nil, err
+	}
 	cur, err := r.collection.Find(context.Background(), filter)
 	if err != nil {
 		return nil, err
@@ -124,7 +126,7 @@ func employeeExistChecker(repos *MongoDBRepository, filter primitive.M) error {
 	err := repos.collection.FindOne(context.Background(), filter).Decode(&employee)
 	if err != nil {
 		if err == mongo.ErrNoDocuments {
-			return fmt.Errorf("no employee found with the given ID")
+			return fmt.Errorf("no employee found with the given request parameters")
 		}
 		return fmt.Errorf("failed to check if employee exists: %s", err.Error())
 	}
