@@ -24,11 +24,11 @@ docker-compose up
 
 **GET**:
 Поиск сотрудника по айди компании
-<img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" >
+<img src="https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album" height="500">
 
 
 Поиск сотрудника по названию отдела
-<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album" >
+<img src="https://sun9-38.userapi.com/impg/nfVJPuN8SIhFvR7yiANDRyMA287JWZ0IHQgshQ/wV5cusuG5sw.jpg?size=539x686&quality=96&sign=f1e952df8774b41c2fffc087f1de67ef&type=album"height="500" >
 
 
 **PUT**:
