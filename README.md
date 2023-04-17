@@ -20,6 +20,7 @@ docker-compose up
 **POST**:
 Добавление сотрудника
 ![Добавление сотрудника](https://sun2.tele2-nn.userapi.com/impg/fzGQR0dEngwmVC68HxS21kyPmyy885GrbIeeTQ/A1qb_fHEtj8.jpg?size=961x726&quality=96&sign=e3a2ff72b0ec033e99fe491523e84f2b&type=album, "Добавление сотрудника")
+<img src="https://sun2.tele2-nn.userapi.com/impg/fzGQR0dEngwmVC68HxS21kyPmyy885GrbIeeTQ/A1qb_fHEtj8.jpg?size=961x726&quality=96&sign=e3a2ff72b0ec033e99fe491523e84f2b&type=album" width="10">
 **GET**:
 Поиск сотрудника по айди компании
 ![Поиск сотрудника по айди компании](https://sun9-50.userapi.com/impg/a_G_DGNrS5e4AYJeMCmh6Jok24SAzt51kgA8Rw/LkgEZeTRwxk.jpg?size=538x693&quality=96&sign=55d60db3fcb670acd14e6dcba7fa3bfa&type=album, "Поиск сотрудника по айди компании")
