@@ -22,7 +22,7 @@ func (h *Handler) addEmployee(c *gin.Context) {
 
 	employeeID, err := h.services.AddEmployee(&employee)
 	if err != nil {
-		newErrorResponse(c, http.StatusBadRequest, err.Error())
+		newErrorResponse(c, http.StatusInternalServerError, err.Error())
 		return
 	}
 	c.JSON(http.StatusOK, addEmployeeResponse{
